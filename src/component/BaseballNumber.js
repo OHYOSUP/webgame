@@ -20,7 +20,6 @@ export default function BaseballNumber() {
     return numbers.join("");
   }
 
-  console.log(question);
   const onChange = (e) => {
     if (e.target.value.length <= 4 && !isNaN(e.target.value))
       setAnswer(e.target.value);
